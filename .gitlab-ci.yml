@@ -19,5 +19,5 @@ run_tests:
  stage: test
  script: CI=true yarn test
 run linter:
-  stage: test
-  scripts: yarn run eslint src/**.js
+ stage: test
+ script: yarn run eslint src/**.js
